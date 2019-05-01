@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/HunterWilkins/memorycards/static/css/main.e9681aec.chunk.css",
-    "main.js": "/HunterWilkins/memorycards/static/js/main.13039cec.chunk.js",
-    "main.js.map": "/HunterWilkins/memorycards/static/js/main.13039cec.chunk.js.map",
-    "runtime~main.js": "/HunterWilkins/memorycards/static/js/runtime~main.b781bd90.js",
-    "runtime~main.js.map": "/HunterWilkins/memorycards/static/js/runtime~main.b781bd90.js.map",
-    "static/js/2.335f0c66.chunk.js": "/HunterWilkins/memorycards/static/js/2.335f0c66.chunk.js",
-    "static/js/2.335f0c66.chunk.js.map": "/HunterWilkins/memorycards/static/js/2.335f0c66.chunk.js.map",
-    "index.html": "/HunterWilkins/memorycards/index.html",
-    "precache-manifest.8c0df26134532e5625148be11b9ae163.js": "/HunterWilkins/memorycards/precache-manifest.8c0df26134532e5625148be11b9ae163.js",
-    "service-worker.js": "/HunterWilkins/memorycards/service-worker.js",
-    "static/css/main.e9681aec.chunk.css.map": "/HunterWilkins/memorycards/static/css/main.e9681aec.chunk.css.map"
+    "main.css": "/memorycards/static/css/main.e9681aec.chunk.css",
+    "main.js": "/memorycards/static/js/main.13039cec.chunk.js",
+    "main.js.map": "/memorycards/static/js/main.13039cec.chunk.js.map",
+    "runtime~main.js": "/memorycards/static/js/runtime~main.ded61f53.js",
+    "runtime~main.js.map": "/memorycards/static/js/runtime~main.ded61f53.js.map",
+    "static/js/2.335f0c66.chunk.js": "/memorycards/static/js/2.335f0c66.chunk.js",
+    "static/js/2.335f0c66.chunk.js.map": "/memorycards/static/js/2.335f0c66.chunk.js.map",
+    "index.html": "/memorycards/index.html",
+    "precache-manifest.506d8376976c9a5f9695d3f8fa32eb43.js": "/memorycards/precache-manifest.506d8376976c9a5f9695d3f8fa32eb43.js",
+    "service-worker.js": "/memorycards/service-worker.js",
+    "static/css/main.e9681aec.chunk.css.map": "/memorycards/static/css/main.e9681aec.chunk.css.map"
   }
 }
