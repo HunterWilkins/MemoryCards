@@ -67,7 +67,7 @@ class App extends React.Component{
     };
 
 
-    // This function shuffles an array. Totally got it from 
+    // This function shuffles an array. Totally got it from StackOverflow.
     shuffleArray = (array) => {
         let i = array.length - 1;
         for (; i > 0; i--) {
@@ -87,17 +87,28 @@ class App extends React.Component{
     };
 
     clickedImage = (id) => {
-        this.shuffleArray(imageArray);
 
-        if (this.chosenItems.indexOf(id) === -1){
-            this.chosenItems.push(id);
-            this.setState({score: this.state.score+1, stateChosenItems: this.chosenItems});
+        if (this.state.score !== imageArray.length-1) {
+
+            this.shuffleArray(imageArray);
+
+            if (this.chosenItems.indexOf(id) === -1){
+                this.chosenItems.push(id);
+                this.setState({score: this.state.score+1, stateChosenItems: this.chosenItems});
+            }
+    
+            else {
+                alert("YOU LUOOSOOSOSOOTTST");
+                this.setState({score:0, stateChosenItems:[]});
+                this.chosenItems = [];
+            }
+
+            console.log(this.chosenItems);
+    
         }
-
         else {
-            alert("YOU LUOOSOOSOSOOTTST");
-            this.setState({score:0, stateChosenItems:[]});
-            this.chosenItems = [];
+            alert("YOU WOOOooOOoOOooOoOoNNNnnNn!!!!!");
+            alert("GAHGHAHGHAAAAAAAGAGAgggAaaAaAaaaaAaAaAAAh!!!!!");
         }
         
         console.log(this.chosenItems);
@@ -107,10 +118,10 @@ class App extends React.Component{
     render() {
         return (
             <div id = "whole-spiel">
-            
-                <h1>Score: {this.state.score}</h1>
-                <h2>Chosen Items: {this.state.stateChosenItems}</h2>
-        
+                <h1 className = "h-element">Memory 2: Revelations</h1>
+                <hr></hr>
+                <h2 className = "h-element">By: Hunter Wilkins</h2>
+                <h3 id = "score">~ Score: {this.state.score} ~</h3>        
                 <div id = "gallery">
                     {this.state.imageArray.map(images  => (
                         <MemoryCard 
